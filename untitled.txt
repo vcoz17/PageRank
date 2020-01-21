@@ -1,0 +1,28 @@
+My code structure is the same as what stated in the document. I have 2 additional files: avatar.c, and avatar.h to implement the Avatar.
+
+How to start:
+- gcc adventure.c items.c avatar.c room.c
+- ./a.out
+- Press s to start the game
+
+For the game, I have a list of commands:
+
+- room: Read room's description
+
+- look: Get list of items in the room
+
+- ivn: Look into the player's inventory
+
+- H: get command list
+
+- read ITEM: read the description of the specified ITEM (e.g.: map,...)
+
+- go DIRECTION (e.g.: north, south, east, west, up, down): Go to room in the current room's direction
+
+- take ITEM: Pick up the specified ITEM and put it into inventory
+
+- use ITEM: Use the specified ITEM, which might change the room's state
+
+- drop ITEM: Discard the specified ITEM off the inventory, and leave it in the current room
+
+Video URL:
